@@ -8,5 +8,6 @@ namespace SistemaGestionEscolar.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
         public DbSet<Estudiante> Estudiantes { get; set; }
+        public DbSet<Maestro> Maestros { get; set; }
     }
 }
