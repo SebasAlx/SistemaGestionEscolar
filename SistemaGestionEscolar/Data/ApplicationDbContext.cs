@@ -11,6 +11,5 @@ namespace SistemaGestionEscolar.Data
         public DbSet<Maestro> Maestros { get; set; }
         public DbSet<Aula> Aulas { get; set; }
         public DbSet<Libro> Libros { get; set; }
-        public DbSet<Materia> Materias { get; set; }
     }
 }
